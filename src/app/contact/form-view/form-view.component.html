@@ -13,7 +13,7 @@
               placeholder="Nombre y apellido"
               required
               class="form-control"
-              [(ngModel)]="formulario.nombre"
+              [value]="formulario.nombre"
               disabled
             />
           </div>
@@ -28,7 +28,7 @@
               placeholder="ejemplo@dominio.com"
               required
               class="form-control"
-              [(ngModel)]="formulario.email"
+              [value]="formulario.email"
               disabled
             />
           </div>
@@ -41,7 +41,7 @@
               name="mensaje"
               required
               class="form-control"
-              [(ngModel)]="formulario.mensaje"
+              [value]="formulario.mensaje"
               disabled
             ></textarea>
           </div>
@@ -56,7 +56,7 @@
               placeholder="Respuesta"
               required
               class="form-control"
-              [(ngModel)]="formulario.respuesta"
+              [value]="formulario.respuesta"
               pattern="5"
               disabled
             />
